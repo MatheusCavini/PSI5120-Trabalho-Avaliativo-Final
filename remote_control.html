@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Smart Lamp - Control Panel</title>
+<style>
+  :root {
+    --bg: #0f1115;
+    --card: #171a21;
+    --border: #2a2f3a;
+    --text: #e8eaed;
+    --muted: #9aa0ab;
+    --accent-on: #f5b942;
+    --accent-off: #4a4f5c;
+    --accent-auto: #4a90e2;
+    --accent-manual: #8a6de2;
+    --danger: #e2544a;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+    padding: 24px;
+  }
+  .card {
+    width: 100%;
+    max-width: 420px;
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 28px;
+  }
+  h1 {
+    font-size: 1.3rem;
+    margin: 0 0 4px;
+  }
+  .subtitle {
+    color: var(--muted);
+    font-size: 0.85rem;
+    margin: 0 0 24px;
+  }
+  .status-row {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 24px;
+  }
+  .status-box {
+    flex: 1;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 14px;
+    text-align: center;
+  }
+  .status-label {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--muted);
+    margin-bottom: 6px;
+  }
+  .status-value {
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+  .lamp-indicator {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 6px;
+    vertical-align: middle;
+  }
+  .section-label {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--muted);
+    margin: 20px 0 10px;
+  }
+  .btn-row {
+    display: flex;
+    gap: 10px;
+  }
+  button {
+    flex: 1;
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid var(--border);
+    background: #1f232c;
+    color: var(--text);
+    font-size: 0.95rem;
+    cursor: pointer;
+    transition: transform 0.05s ease, opacity 0.2s ease;
+  }
+  button:hover { opacity: 0.85; }
+  button:active { transform: scale(0.97); }
+  button:disabled { opacity: 0.4; cursor: not-allowed; }
+  button.active-auto { background: var(--accent-auto); border-color: var(--accent-auto); }
+  button.active-manual { background: var(--accent-manual); border-color: var(--accent-manual); }
+  button.active-on { background: var(--accent-on); border-color: var(--accent-on); color: #1a1400; }
+  button.active-off { background: var(--accent-off); border-color: var(--accent-off); }
+  .identify-btn { width: 100%; margin-top: 4px; }
+  .hint {
+    font-size: 0.78rem;
+    color: var(--muted);
+    margin-top: 10px;
+    line-height: 1.4;
+  }
+  .error-banner {
+    display: none;
+    background: rgba(226, 84, 74, 0.15);
+    border: 1px solid var(--danger);
+    color: #ffb4ae;
+    border-radius: 8px;
+    padding: 10px 12px;
+    font-size: 0.8rem;
+    margin-bottom: 16px;
+  }
+  .footer-note {
+    margin-top: 22px;
+    font-size: 0.7rem;
+    color: var(--muted);
+    text-align: center;
+  }
+</style>
+</head>
+<body>
+  <div class="card">
+    <h1>Smart Lamp</h1>
+    <p class="subtitle">Control panel - PSI5120 Final Project</p>
+
+    <div id="errorBanner" class="error-banner"></div>
+
+    <div class="status-row">
+      <div class="status-box">
+        <div class="status-label">Mode</div>
+        <div class="status-value" id="statusMode">--</div>
+      </div>
+      <div class="status-box">
+        <div class="status-label">Lamp</div>
+        <div class="status-value" id="statusLamp">
+          <span class="lamp-indicator" id="lampIndicator" style="background:#555;"></span>
+          <span id="statusLampText">--</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="section-label">Operating mode</div>
+    <div class="btn-row">
+      <button id="btnAuto" onclick="setMode('auto')">Auto</button>
+      <button id="btnManual" onclick="setMode('manual')">Manual</button>
+    </div>
+
+    <div class="section-label">Lamp (manual mode)</div>
+    <div class="btn-row">
+      <button id="btnOn" onclick="setLampState('on')">Turn On</button>
+      <button id="btnOff" onclick="setLampState('off')">Turn Off</button>
+    </div>
+    <p class="hint" id="manualHint"></p>
+
+    <div class="section-label">Identification</div>
+    <button class="identify-btn" onclick="identify()">Blink lamp (identify)</button>
+
+    <p class="footer-note">Updating every 3s · <span id="lastUpdate">--</span></p>
+  </div>
+
+<script>
+  // Preencha com o Invoke URL do seu API Gateway (sem barra no final),
+  // por exemplo: "https://abc123xyz.execute-api.us-east-1.amazonaws.com"
+  const API_BASE_URL = "";
+
+  const el = (id) => document.getElementById(id);
+
+  function showError(msg) {
+    const banner = el('errorBanner');
+    banner.textContent = msg;
+    banner.style.display = 'block';
+  }
+
+  function clearError() {
+    el('errorBanner').style.display = 'none';
+  }
+
+  function renderState(reported, desired) {
+    const mode = (reported && reported.mode) || '--';
+    const lampState = (reported && reported.lamp_state) || '--';
+
+    el('statusMode').textContent = mode;
+    el('statusLampText').textContent = lampState;
+    el('lampIndicator').style.background = lampState === 'on' ? '#f5b942' : '#555';
+
+    el('btnAuto').className = mode === 'auto' ? 'active-auto' : '';
+    el('btnManual').className = mode === 'manual' ? 'active-manual' : '';
+    el('btnOn').className = lampState === 'on' ? 'active-on' : '';
+    el('btnOff').className = lampState === 'off' ? 'active-off' : '';
+
+    const hint = el('manualHint');
+    if (mode === 'auto') {
+      hint.textContent = 'Auto mode is active: the sensor decides on its own. A command sent here stays pending (desired) until you switch to Manual.';
+    } else {
+      hint.textContent = '';
+    }
+
+    el('lastUpdate').textContent = new Date().toLocaleTimeString('en-US');
+  }
+
+  async function fetchShadow() {
+    try {
+      const res = await fetch(`${API_BASE_URL}/shadow`);
+      if (!res.ok) throw new Error(`GET /shadow -> HTTP ${res.status}`);
+      const data = await res.json();
+      const reported = data.state && data.state.reported;
+      const desired = data.state && data.state.desired;
+      renderState(reported, desired);
+      clearError();
+    } catch (err) {
+      showError('Failed to fetch state: ' + err.message);
+    }
+  }
+
+  async function postShadow(desired) {
+    try {
+      const res = await fetch(`${API_BASE_URL}/shadow`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ desired }),
+      });
+      if (!res.ok) throw new Error(`POST /shadow -> HTTP ${res.status}`);
+      clearError();
+      // Pequeno atraso antes de reconsultar, dando tempo do device
+      // reagir e reportar de volta (nao ha garantia de tempo fixo).
+      setTimeout(fetchShadow, 1000);
+    } catch (err) {
+      showError('Failed to send command: ' + err.message);
+    }
+  }
+
+  function setMode(mode) {
+    postShadow({ mode });
+  }
+
+  function setLampState(lampState) {
+    postShadow({ lamp_state: lampState });
+  }
+
+  async function identify() {
+    try {
+      const res = await fetch(`${API_BASE_URL}/identify`, { method: 'POST' });
+      if (!res.ok) throw new Error(`POST /identify -> HTTP ${res.status}`);
+      clearError();
+    } catch (err) {
+      showError('Failed to send identify: ' + err.message);
+    }
+  }
+
+  fetchShadow();
+  setInterval(fetchShadow, 3000);
+</script>
+</body>
+</html>
