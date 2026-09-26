@@ -1,3 +1,7 @@
+
+
+
+
 # Smart Lamp Retrofit — AWS IoT Core
 
 An end-to-end IoT implementation developed for **PSI5120** that retrofits a desk lamp with a broken physical switch into a connected device using an **ESP32**, local sensing, **AWS IoT Core**, MQTT, Device Shadow, Lambda, DynamoDB, and a browser-based control panel.
@@ -388,27 +392,7 @@ Suggested paths:
 ---
 
 ## Demo
-
-<!--
-TODO: Add the final demonstration video.
-GitHub-friendly options:
-- upload the video to a GitHub Release and link it here;
-- use a YouTube/Loom link;
-- or use a thumbnail image linking to the video.
--->
-
-> **Demo video — planned**  
-> Add the final demonstration video link here.
-
-The demonstration should show, at minimum:
-
-1. the physical lamp and ESP32 setup;
-2. autonomous activation through darkness/proximity;
-3. changing the operating mode remotely;
-4. manual lamp control through the web panel;
-5. the `identify` command;
-6. telemetry arriving in AWS and being persisted in DynamoDB.
-
+[Demo](https://github.com/user-attachments/assets/3c31e26e-9fcb-4493-8071-8146a9d73aeb)
 ---
 
 ## Technical References
