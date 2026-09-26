@@ -392,7 +392,11 @@ Suggested paths:
 ---
 
 ## Demo
-[Demo](https://github.com/user-attachments/assets/3c31e26e-9fcb-4493-8071-8146a9d73aeb)
+
+
+https://github.com/user-attachments/assets/cfc4cc2f-bf45-4083-af5b-40c327652e8b
+
+
 ---
 
 ## Technical References
