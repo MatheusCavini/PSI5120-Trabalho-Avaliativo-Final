@@ -1,0 +1,11 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "PutTelemetryInDynamoDB",
+      "Effect": "Allow",
+      "Action": "dynamodb:PutItem",
+      "Resource": "COLE_AQUI_O_ARN_DA_TABELA"
+    }
+  ]
+}

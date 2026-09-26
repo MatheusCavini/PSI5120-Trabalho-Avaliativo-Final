@@ -1,0 +1,45 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "Connect",
+      "Effect": "Allow",
+      "Action": "iot:Connect",
+      "Resource": "arn:aws:iot:__REGION__:__ACCOUNT_ID__:client/__THING_NAME__"
+    },
+    {
+      "Sid": "PublishTelemetry",
+      "Effect": "Allow",
+      "Action": "iot:Publish",
+      "Resource": "arn:aws:iot:__REGION__:__ACCOUNT_ID__:topic/psi5120-final/__ID__/lamp01/telemetry"
+    },
+    {
+      "Sid": "PublishShadowUpdate",
+      "Effect": "Allow",
+      "Action": "iot:Publish",
+      "Resource": "arn:aws:iot:__REGION__:__ACCOUNT_ID__:topic/$aws/things/__THING_NAME__/shadow/update"
+    },
+    {
+      "Sid": "SubscribeShadowAndCommand",
+      "Effect": "Allow",
+      "Action": "iot:Subscribe",
+      "Resource": [
+        "arn:aws:iot:__REGION__:__ACCOUNT_ID__:topicfilter/$aws/things/__THING_NAME__/shadow/update/delta",
+        "arn:aws:iot:__REGION__:__ACCOUNT_ID__:topicfilter/$aws/things/__THING_NAME__/shadow/update/accepted",
+        "arn:aws:iot:__REGION__:__ACCOUNT_ID__:topicfilter/$aws/things/__THING_NAME__/shadow/update/rejected",
+        "arn:aws:iot:__REGION__:__ACCOUNT_ID__:topicfilter/psi5120-final/__ID__/lamp01/command"
+      ]
+    },
+    {
+      "Sid": "ReceiveShadowAndCommand",
+      "Effect": "Allow",
+      "Action": "iot:Receive",
+      "Resource": [
+        "arn:aws:iot:__REGION__:__ACCOUNT_ID__:topic/$aws/things/__THING_NAME__/shadow/update/delta",
+        "arn:aws:iot:__REGION__:__ACCOUNT_ID__:topic/$aws/things/__THING_NAME__/shadow/update/accepted",
+        "arn:aws:iot:__REGION__:__ACCOUNT_ID__:topic/$aws/things/__THING_NAME__/shadow/update/rejected",
+        "arn:aws:iot:__REGION__:__ACCOUNT_ID__:topic/psi5120-final/__ID__/lamp01/command"
+      ]
+    }
+  ]
+}

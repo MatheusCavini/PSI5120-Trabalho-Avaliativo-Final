@@ -1,0 +1,20 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "ShadowReadWrite",
+      "Effect": "Allow",
+      "Action": [
+        "iot:GetThingShadow",
+        "iot:UpdateThingShadow"
+      ],
+      "Resource": "arn:aws:iot:__REGION__:__ACCOUNT_ID__:thing/__THING_NAME__"
+    },
+    {
+      "Sid": "PublishIdentifyCommand",
+      "Effect": "Allow",
+      "Action": "iot:Publish",
+      "Resource": "arn:aws:iot:__REGION__:__ACCOUNT_ID__:topic/psi5120-final/__ID__/lamp01/command"
+    }
+  ]
+}
