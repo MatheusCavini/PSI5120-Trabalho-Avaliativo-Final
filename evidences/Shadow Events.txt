@@ -1,0 +1,101 @@
+Cenário 1
+---- Opened the serial port COM15 ----
+[TELEMETRY_PUBLISH_OK] {"device_id":"psi5120-final-matheus-cavini-lamp01","sequence":38,"timestamp":"2026-09-26T18:41:32Z","light_raw":2550,"escuro":false,"distance_cm":192.2343445,"presence_proxima":false,"mode":"auto","lamp_state":"off"}
+[AUTO_DECISION] lamp_state -> on
+[SHADOW_REPORTED] {"state":{"reported":{"mode":"auto","lamp_state":"on"}}}
+[SHADOW_DELTA_IGNORED] lamp_state recebido em modo auto; sensor decide localmente
+[TELEMETRY_PUBLISH_OK] {"device_id":"psi5120-final-matheus-cavini-lamp01","sequence":39,"timestamp":"2026-09-26T18:41:36Z","light_raw":2640,"escuro":false,"distance_cm":4.510449886,"presence_proxima":true,"mode":"auto","lamp_state":"on"}
+[AUTO_DECISION] lamp_state -> off
+[SHADOW_REPORTED] {"state":{"reported":{"mode":"auto","lamp_state":"off"}}}
+[TELEMETRY_PUBLISH_OK] {"device_id":"psi5120-final-matheus-cavini-lamp01","sequence":40,"timestamp":"2026-09-26T18:41:39Z","light_raw":2499,"escuro":false,"distance_cm":55.75465012,"presence_proxima":false,"mode":"auto","lamp_state":"off"}
+[TELEMETRY_PUBLISH_OK] {"device_id":"psi5120-final-matheus-cavini-lamp01","sequence":41,"timestamp":"2026-09-26T18:41:42Z","light_raw":2509,"escuro":false,"distance_cm":192.4058533,"presence_proxima":false,"mode":"auto","lamp_state":"off"}
+[AUTO_DECISION] lamp_state -> on
+[SHADOW_REPORTED] {"state":{"reported":{"mode":"auto","lamp_state":"on"}}}
+[SHADOW_DELTA_IGNORED] lamp_state recebido em modo auto; sensor decide localmente
+[TELEMETRY_PUBLISH_OK] {"device_id":"psi5120-final-matheus-cavini-lamp01","sequence":42,"timestamp":"2026-09-26T18:41:45Z","light_raw":864,"escuro":true,"distance_cm":192.2514954,"presence_proxima":false,"mode":"auto","lamp_state":"on"}
+[TELEMETRY_PUBLISH_OK] {"device_id":"psi5120-final-matheus-cavini-lamp01","sequence":43,"timestamp":"2026-09-26T18:41:48Z","light_raw":879,"escuro":true,"distance_cm":192.3372498,"presence_proxima":false,"mode":"auto","lamp_state":"on"}
+[AUTO_DECISION] lamp_state -> off
+[SHADOW_REPORTED] {"state":{"reported":{"mode":"auto","lamp_state":"off"}}}
+---- Closed the serial port COM15 ----
+
+Shadow updated
+September 26, 2026, 15:34:57 (UTC-03:00)
+Accepted
+$aws/things/psi5120-final-matheus-cavini-lamp01/shadow/update/accepted
+
+{
+  "state": {
+    "reported": {
+      "mode": "auto",
+      "lamp_state": "on"
+    }
+  },
+  "metadata": {
+    "reported": {
+      "mode": {
+        "timestamp": 1790447697
+      },
+      "lamp_state": {
+        "timestamp": 1790447697
+      }
+    }
+  },
+  "version": 191,
+  "timestamp": 1790447697
+}
+
+Cenário 2
+---- Opened the serial port COM15 ----
+[TELEMETRY_PUBLISH_OK] {"device_id":"psi5120-final-matheus-cavini-lamp01","sequence":77,"timestamp":"2026-09-26T18:39:01Z","light_raw":2535,"escuro":false,"distance_cm":192.2514954,"presence_proxima":false,"mode":"auto","lamp_state":"off"}
+[TELEMETRY_PUBLISH_OK] {"device_id":"psi5120-final-matheus-cavini-lamp01","sequence":78,"timestamp":"2026-09-26T18:39:04Z","light_raw":2559,"escuro":false,"distance_cm":192.165741,"presence_proxima":false,"mode":"auto","lamp_state":"off"}
+[TELEMETRY_PUBLISH_OK] {"device_id":"psi5120-final-matheus-cavini-lamp01","sequence":79,"timestamp":"2026-09-26T18:39:08Z","light_raw":2559,"escuro":false,"distance_cm":191.9599457,"presence_proxima":false,"mode":"auto","lamp_state":"off"}
+[TELEMETRY_PUBLISH_OK] {"device_id":"psi5120-final-matheus-cavini-lamp01","sequence":80,"timestamp":"2026-09-26T18:39:11Z","light_raw":2559,"escuro":false,"distance_cm":192.4230042,"presence_proxima":false,"mode":"auto","lamp_state":"off"}
+[SHADOW_DELTA] mode -> manual
+[SHADOW_REPORTED] {"state":{"reported":{"mode":"manual","lamp_state":"off"}}}
+[TELEMETRY_PUBLISH_OK] {"device_id":"psi5120-final-matheus-cavini-lamp01","sequence":81,"timestamp":"2026-09-26T18:39:14Z","light_raw":2559,"escuro":false,"distance_cm":192.3887024,"presence_proxima":false,"mode":"manual","lamp_state":"off"}
+[TELEMETRY_PUBLISH_OK] {"device_id":"psi5120-final-matheus-cavini-lamp01","sequence":82,"timestamp":"2026-09-26T18:39:17Z","light_raw":2559,"escuro":false,"distance_cm":192.0800018,"presence_proxima":false,"mode":"manual","lamp_state":"off"}
+[TELEMETRY_PUBLISH_OK] {"device_id":"psi5120-final-matheus-cavini-lamp01","sequence":83,"timestamp":"2026-09-26T18:39:20Z","light_raw":2559,"escuro":false,"distance_cm":192.165741,"presence_proxima":false,"mode":"manual","lamp_state":"off"}
+[SHADOW_DELTA] lamp_state -> on
+[SHADOW_REPORTED] {"state":{"reported":{"mode":"manual","lamp_state":"on"}}}
+[TELEMETRY_PUBLISH_OK] {"device_id":"psi5120-final-matheus-cavini-lamp01","sequence":84,"timestamp":"2026-09-26T18:39:23Z","light_raw":2607,"escuro":false,"distance_cm":192.2514954,"presence_proxima":false,"mode":"manual","lamp_state":"on"}
+[TELEMETRY_PUBLISH_OK] {"device_id":"psi5120-final-matheus-cavini-lamp01","sequence":85,"timestamp":"2026-09-26T18:39:26Z","light_raw":2473,"escuro":false,"distance_cm":192.6631012,"presence_proxima":false,"mode":"manual","lamp_state":"on"}
+[TELEMETRY_PUBLISH_OK] {"device_id":"psi5120-final-matheus-cavini-lamp01","sequence":86,"timestamp":"2026-09-26T18:39:29Z","light_raw":2463,"escuro":false,"distance_cm":192.3715515,"presence_proxima":false,"mode":"manual","lamp_state":"on"}
+---- Closed the serial port COM15 ----
+
+Shadow updated
+September 26, 2026, 15:39:21 (UTC-03:00)
+Accepted
+$aws/things/psi5120-final-matheus-cavini-lamp01/shadow/update/accepted
+
+{
+  "state": {
+    "reported": {
+      "mode": "manual",
+      "lamp_state": "on"
+    }
+  },
+  "metadata": {
+    "reported": {
+      "mode": {
+        "timestamp": 1790447961
+      },
+      "lamp_state": {
+        "timestamp": 1790447961
+      }
+    }
+  },
+  "version": 197,
+  "timestamp": 1790447961
+}
+
+
+Cenário 3
+---- Opened the serial port COM15 ----
+[TELEMETRY_PUBLISH_OK] {"device_id":"psi5120-final-matheus-cavini-lamp01","sequence":22,"timestamp":"2026-09-26T18:43:04Z","light_raw":2555,"escuro":false,"distance_cm":192.4230042,"presence_proxima":false,"mode":"auto","lamp_state":"off"}
+[TELEMETRY_PUBLISH_OK] {"device_id":"psi5120-final-matheus-cavini-lamp01","sequence":23,"timestamp":"2026-09-26T18:43:07Z","light_raw":2553,"escuro":false,"distance_cm":192.3372498,"presence_proxima":false,"mode":"auto","lamp_state":"off"}
+[COMMAND_RECEIVED] identify
+[IDENTIFY_DONE]
+[TELEMETRY_PUBLISH_OK] {"device_id":"psi5120-final-matheus-cavini-lamp01","sequence":24,"timestamp":"2026-09-26T18:43:10Z","light_raw":2613,"escuro":false,"distance_cm":192.2514954,"presence_proxima":false,"mode":"auto","lamp_state":"off"}
+[TELEMETRY_PUBLISH_OK] {"device_id":"psi5120-final-matheus-cavini-lamp01","sequence":25,"timestamp":"2026-09-26T18:43:13Z","light_raw":2559,"escuro":false,"distance_cm":192.2514954,"presence_proxima":false,"mode":"auto","lamp_state":"off"}
+[TELEMETRY_PUBLISH_OK] {"device_id":"psi5120-final-matheus-cavini-lamp01","sequence":26,"timestamp":"2026-09-26T18:43:16Z","light_raw":2551,"escuro":false,"distance_cm":192.5944977,"presence_proxima":false,"mode":"auto","lamp_state":"off"}
+---- Closed the serial port COM15 ----

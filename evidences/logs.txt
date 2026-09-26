@@ -1,0 +1,74 @@
+
+[BOOT] Fase 3 (v2, esp-mqtt) - telemetria, shadow e comando
+[WIFI] Conectando a SHICA
+.
+[WIFI_CONNECTED] IP local: 192.168.15.40
+[WIFI_RSSI] -31
+[NTP] Sincronizando horario........
+[NTP_OK]
+[MQTT] Cliente iniciado (reconexao automatica interna do esp-mqtt)
+[TELEMETRY_PUBLISH_SKIPPED] MQTT desconectado no momento
+[TELEMETRY_PUBLISH_SKIPPED] MQTT desconectado no momento
+[MQTT_CONNECTED]
+[SUBSCRIBED] shadow/update/delta e command
+[SHADOW_REPORTED] {"state":{"reported":{"mode":"auto","lamp_state":"off"}}}
+[TELEMETRY_PUBLISH_OK] {"device_id":"psi5120-final-matheus-cavini-lamp01","sequence":0,"timestamp":"2026-09-26T18:03:15Z","light_raw":2704,"escuro":false,"distance_cm":192.3372498,"presence_proxima":false,"mode":"auto","lamp_state":"off"}
+[TELEMETRY_PUBLISH_OK] {"device_id":"psi5120-final-matheus-cavini-lamp01","sequence":1,"timestamp":"2026-09-26T18:03:18Z","light_raw":2706,"escuro":false,"distance_cm":192.2514954,"presence_proxima":false,"mode":"auto","lamp_state":"off"}
+[AUTO_DECISION] lamp_state -> on
+[SHADOW_REPORTED] {"state":{"reported":{"mode":"auto","lamp_state":"on"}}}
+[TELEMETRY_PUBLISH_OK] {"device_id":"psi5120-final-matheus-cavini-lamp01","sequence":2,"timestamp":"2026-09-26T18:03:21Z","light_raw":2743,"escuro":false,"distance_cm":4.218899727,"presence_proxima":true,"mode":"auto","lamp_state":"on"}
+[AUTO_DECISION] lamp_state -> off
+[SHADOW_REPORTED] {"state":{"reported":{"mode":"auto","lamp_state":"off"}}}
+[AUTO_DECISION] lamp_state -> on
+[SHADOW_REPORTED] {"state":{"reported":{"mode":"auto","lamp_state":"on"}}}
+[TELEMETRY_PUBLISH_OK] {"device_id":"psi5120-final-matheus-cavini-lamp01","sequence":3,"timestamp":"2026-09-26T18:03:24Z","light_raw":745,"escuro":true,"distance_cm":192.1828918,"presence_proxima":false,"mode":"auto","lamp_state":"on"}
+[TELEMETRY_PUBLISH_OK] {"device_id":"psi5120-final-matheus-cavini-lamp01","sequence":4,"timestamp":"2026-09-26T18:03:27Z","light_raw":816,"escuro":true,"distance_cm":191.8913422,"presence_proxima":false,"mode":"auto","lamp_state":"on"}
+[AUTO_DECISION] lamp_state -> off
+[SHADOW_REPORTED] {"state":{"reported":{"mode":"auto","lamp_state":"off"}}}
+[TELEMETRY_PUBLISH_OK] {"device_id":"psi5120-final-matheus-cavini-lamp01","sequence":5,"timestamp":"2026-09-26T18:03:30Z","light_raw":2650,"escuro":false,"distance_cm":192.1828918,"presence_proxima":false,"mode":"auto","lamp_state":"off"}
+[TELEMETRY_PUBLISH_OK] {"device_id":"psi5120-final-matheus-cavini-lamp01","sequence":6,"timestamp":"2026-09-26T18:03:33Z","light_raw":2658,"escuro":false,"distance_cm":192.6287994,"presence_proxima":false,"mode":"auto","lamp_state":"off"}
+[TELEMETRY_PUBLISH_OK] {"device_id":"psi5120-final-matheus-cavini-lamp01","sequence":7,"timestamp":"2026-09-26T18:03:36Z","light_raw":2617,"escuro":false,"distance_cm":192.2343445,"presence_proxima":false,"mode":"auto","lamp_state":"off"}
+[TELEMETRY_PUBLISH_OK] {"device_id":"psi5120-final-matheus-cavini-lamp01","sequence":8,"timestamp":"2026-09-26T18:03:39Z","light_raw":2658,"escuro":false,"distance_cm":192.1828918,"presence_proxima":false,"mode":"auto","lamp_state":"off"}
+[TELEMETRY_PUBLISH_OK] {"device_id":"psi5120-final-matheus-cavini-lamp01","sequence":9,"timestamp":"2026-09-26T18:03:42Z","light_raw":2657,"escuro":false,"distance_cm":192.6287994,"presence_proxima":false,"mode":"auto","lamp_state":"off"}
+[TELEMETRY_PUBLISH_OK] {"device_id":"psi5120-final-matheus-cavini-lamp01","sequence":10,"timestamp":"2026-09-26T18:03:45Z","light_raw":2657,"escuro":false,"distance_cm":192.5601959,"presence_proxima":false,"mode":"auto","lamp_state":"off"}
+[TELEMETRY_PUBLISH_OK] {"device_id":"psi5120-final-matheus-cavini-lamp01","sequence":11,"timestamp":"2026-09-26T18:03:48Z","light_raw":2657,"escuro":false,"distance_cm":192.5258942,"presence_proxima":false,"mode":"auto","lamp_state":"off"}
+[TELEMETRY_PUBLISH_OK] {"device_id":"psi5120-final-matheus-cavini-lamp01","sequence":12,"timestamp":"2026-09-26T18:03:51Z","light_raw":2656,"escuro":false,"distance_cm":192.3372498,"presence_proxima":false,"mode":"auto","lamp_state":"off"}
+[TELEMETRY_PUBLISH_OK] {"device_id":"psi5120-final-matheus-cavini-lamp01","sequence":13,"timestamp":"2026-09-26T18:03:54Z","light_raw":2650,"escuro":false,"distance_cm":192.3372498,"presence_proxima":false,"mode":"auto","lamp_state":"off"}
+[TELEMETRY_PUBLISH_OK] {"device_id":"psi5120-final-matheus-cavini-lamp01","sequence":14,"timestamp":"2026-09-26T18:03:57Z","light_raw":2647,"escuro":false,"distance_cm":192.4230042,"presence_proxima":false,"mode":"auto","lamp_state":"off"}
+[TELEMETRY_PUBLISH_OK] {"device_id":"psi5120-final-matheus-cavini-lamp01","sequence":15,"timestamp":"2026-09-26T18:04:00Z","light_raw":2656,"escuro":false,"distance_cm":192.5087433,"presence_proxima":false,"mode":"auto","lamp_state":"off"}
+[TELEMETRY_PUBLISH_OK] {"device_id":"psi5120-final-matheus-cavini-lamp01","sequence":16,"timestamp":"2026-09-26T18:04:03Z","light_raw":2654,"escuro":false,"distance_cm":192.1485901,"presence_proxima":false,"mode":"auto","lamp_state":"off"}
+[TELEMETRY_PUBLISH_OK] {"device_id":"psi5120-final-matheus-cavini-lamp01","sequence":17,"timestamp":"2026-09-26T18:04:06Z","light_raw":2656,"escuro":false,"distance_cm":192.1828918,"presence_proxima":false,"mode":"auto","lamp_state":"off"}
+[TELEMETRY_PUBLISH_OK] {"device_id":"psi5120-final-matheus-cavini-lamp01","sequence":18,"timestamp":"2026-09-26T18:04:09Z","light_raw":2655,"escuro":false,"distance_cm":192.2514954,"presence_proxima":false,"mode":"auto","lamp_state":"off"}
+[TELEMETRY_PUBLISH_OK] {"device_id":"psi5120-final-matheus-cavini-lamp01","sequence":19,"timestamp":"2026-09-26T18:04:13Z","light_raw":2654,"escuro":false,"distance_cm":192.3372498,"presence_proxima":false,"mode":"auto","lamp_state":"off"}
+[TELEMETRY_PUBLISH_OK] {"device_id":"psi5120-final-matheus-cavini-lamp01","sequence":20,"timestamp":"2026-09-26T18:04:16Z","light_raw":2657,"escuro":false,"distance_cm":192.800293,"presence_proxima":false,"mode":"auto","lamp_state":"off"}
+[TELEMETRY_PUBLISH_OK] {"device_id":"psi5120-final-matheus-cavini-lamp01","sequence":21,"timestamp":"2026-09-26T18:04:19Z","light_raw":2653,"escuro":false,"distance_cm":192.800293,"presence_proxima":false,"mode":"auto","lamp_state":"off"}
+[SHADOW_DELTA] mode -> manual
+[SHADOW_REPORTED] {"state":{"reported":{"mode":"manual","lamp_state":"off"}}}
+[TELEMETRY_PUBLISH_OK] {"device_id":"psi5120-final-matheus-cavini-lamp01","sequence":22,"timestamp":"2026-09-26T18:04:22Z","light_raw":2655,"escuro":false,"distance_cm":192.8860474,"presence_proxima":false,"mode":"manual","lamp_state":"off"}
+[TELEMETRY_PUBLISH_OK] {"device_id":"psi5120-final-matheus-cavini-lamp01","sequence":23,"timestamp":"2026-09-26T18:04:25Z","light_raw":2649,"escuro":false,"distance_cm":192.3887024,"presence_proxima":false,"mode":"manual","lamp_state":"off"}
+[TELEMETRY_PUBLISH_OK] {"device_id":"psi5120-final-matheus-cavini-lamp01","sequence":24,"timestamp":"2026-09-26T18:04:28Z","light_raw":2646,"escuro":false,"distance_cm":192.7831421,"presence_proxima":false,"mode":"manual","lamp_state":"off"}
+[TELEMETRY_PUBLISH_OK] {"device_id":"psi5120-final-matheus-cavini-lamp01","sequence":25,"timestamp":"2026-09-26T18:04:31Z","light_raw":2655,"escuro":false,"distance_cm":193.177597,"presence_proxima":false,"mode":"manual","lamp_state":"off"}
+[TELEMETRY_PUBLISH_OK] {"device_id":"psi5120-final-matheus-cavini-lamp01","sequence":26,"timestamp":"2026-09-26T18:04:34Z","light_raw":2655,"escuro":false,"distance_cm":192.165741,"presence_proxima":false,"mode":"manual","lamp_state":"off"}
+[TELEMETRY_PUBLISH_OK] {"device_id":"psi5120-final-matheus-cavini-lamp01","sequence":27,"timestamp":"2026-09-26T18:04:37Z","light_raw":2653,"escuro":false,"distance_cm":192.062851,"presence_proxima":false,"mode":"manual","lamp_state":"off"}
+[TELEMETRY_PUBLISH_OK] {"device_id":"psi5120-final-matheus-cavini-lamp01","sequence":28,"timestamp":"2026-09-26T18:04:40Z","light_raw":2656,"escuro":false,"distance_cm":192.0971527,"presence_proxima":false,"mode":"manual","lamp_state":"off"}
+[TELEMETRY_PUBLISH_OK] {"device_id":"psi5120-final-matheus-cavini-lamp01","sequence":29,"timestamp":"2026-09-26T18:04:43Z","light_raw":2656,"escuro":false,"distance_cm":192.4572906,"presence_proxima":false,"mode":"manual","lamp_state":"off"}
+[TELEMETRY_PUBLISH_OK] {"device_id":"psi5120-final-matheus-cavini-lamp01","sequence":30,"timestamp":"2026-09-26T18:04:46Z","light_raw":2655,"escuro":false,"distance_cm":191.9942474,"presence_proxima":false,"mode":"manual","lamp_state":"off"}
+[SHADOW_DELTA] mode -> manual
+[SHADOW_DELTA] lamp_state -> on
+[SHADOW_REPORTED] {"state":{"reported":{"mode":"manual","lamp_state":"on"}}}
+[TELEMETRY_PUBLISH_OK] {"device_id":"psi5120-final-matheus-cavini-lamp01","sequence":31,"timestamp":"2026-09-26T18:04:49Z","light_raw":2746,"escuro":false,"distance_cm":192.4744415,"presence_proxima":false,"mode":"manual","lamp_state":"on"}
+[TELEMETRY_PUBLISH_OK] {"device_id":"psi5120-final-matheus-cavini-lamp01","sequence":32,"timestamp":"2026-09-26T18:04:52Z","light_raw":2769,"escuro":false,"distance_cm":192.0457001,"presence_proxima":false,"mode":"manual","lamp_state":"on"}
+[TELEMETRY_PUBLISH_OK] {"device_id":"psi5120-final-matheus-cavini-lamp01","sequence":33,"timestamp":"2026-09-26T18:04:55Z","light_raw":2800,"escuro":false,"distance_cm":192.1828918,"presence_proxima":false,"mode":"manual","lamp_state":"on"}
+[TELEMETRY_PUBLISH_OK] {"device_id":"psi5120-final-matheus-cavini-lamp01","sequence":34,"timestamp":"2026-09-26T18:04:58Z","light_raw":2726,"escuro":false,"distance_cm":192.302948,"presence_proxima":false,"mode":"manual","lamp_state":"on"}
+[SHADOW_DELTA] mode -> auto
+[SHADOW_REPORTED] {"state":{"reported":{"mode":"auto","lamp_state":"on"}}}
+[AUTO_DECISION] lamp_state -> off
+[SHADOW_REPORTED] {"state":{"reported":{"mode":"auto","lamp_state":"off"}}}
+[SHADOW_DELTA_IGNORED] lamp_state recebido em modo auto; sensor decide localmente
+[TELEMETRY_PUBLISH_OK] {"device_id":"psi5120-final-matheus-cavini-lamp01","sequence":35,"timestamp":"2026-09-26T18:05:01Z","light_raw":2645,"escuro":false,"distance_cm":192.2686462,"presence_proxima":false,"mode":"auto","lamp_state":"off"}
+[TELEMETRY_PUBLISH_OK] {"device_id":"psi5120-final-matheus-cavini-lamp01","sequence":36,"timestamp":"2026-09-26T18:05:04Z","light_raw":2650,"escuro":false,"distance_cm":192.3715515,"presence_proxima":false,"mode":"auto","lamp_state":"off"}
+[COMMAND_RECEIVED] identify
+[IDENTIFY_DONE]
+[TELEMETRY_PUBLISH_OK] {"device_id":"psi5120-final-matheus-cavini-lamp01","sequence":37,"timestamp":"2026-09-26T18:05:07Z","light_raw":2813,"escuro":false,"distance_cm":192.302948,"presence_proxima":false,"mode":"auto","lamp_state":"off"}
+[TELEMETRY_PUBLISH_OK] {"device_id":"psi5120-final-matheus-cavini-lamp01","sequence":38,"timestamp":"2026-09-26T18:05:10Z","light_raw":2653,"escuro":false,"distance_cm":192.2686462,"presence_proxima":false,"mode":"auto","lamp_state":"off"}
+---- Closed the serial port COM15 ----

@@ -1,0 +1,333 @@
+timestamp,message
+1790446823709,"INIT_START Runtime Version: python:3.12.mainlinev2.v43	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:36aeb19f3326e129d9f096dea0a3c6a9ca8dce2610e62d2b2060747602d863ae
+"
+1790446824481,"START RequestId: 351886ba-c4e8-44bb-8091-b48dc73609ba Version: $LATEST
+"
+1790446824482,"{""event"": {""device_id"": ""psi5120-final-matheus-cavini-lamp01"", ""distance_cm"": 192.4058533, ""escuro"": false, ""lamp_state"": ""off"", ""light_raw"": 2627, ""mode"": ""auto"", ""presence_proxima"": false, ""sequence"": 0, ""timestamp"": ""2026-09-26T18:20:23Z""}, ""phase"": ""iot_rule_received"", ""request_id"": ""351886ba-c4e8-44bb-8091-b48dc73609ba""}
+"
+1790446824781,"{""device_id"": ""psi5120-final-matheus-cavini-lamp01"", ""phase"": ""dynamodb_put_ok"", ""request_id"": ""351886ba-c4e8-44bb-8091-b48dc73609ba"", ""sequence"": 0}
+"
+1790446824798,"END RequestId: 351886ba-c4e8-44bb-8091-b48dc73609ba
+"
+1790446824798,"REPORT RequestId: 351886ba-c4e8-44bb-8091-b48dc73609ba	Duration: 316.64 ms	Billed Duration: 1078 ms	Memory Size: 128 MB	Max Memory Used: 88 MB	Init Duration: 761.18 ms	
+"
+1790446826594,"START RequestId: d9811645-6aa2-4000-9354-eec874aa6113 Version: $LATEST
+"
+1790446826594,"{""event"": {""device_id"": ""psi5120-final-matheus-cavini-lamp01"", ""distance_cm"": 192.4744415, ""escuro"": false, ""lamp_state"": ""off"", ""light_raw"": 2629, ""mode"": ""auto"", ""presence_proxima"": false, ""sequence"": 1, ""timestamp"": ""2026-09-26T18:20:26Z""}, ""phase"": ""iot_rule_received"", ""request_id"": ""d9811645-6aa2-4000-9354-eec874aa6113""}
+"
+1790446826617,"{""device_id"": ""psi5120-final-matheus-cavini-lamp01"", ""phase"": ""dynamodb_put_ok"", ""request_id"": ""d9811645-6aa2-4000-9354-eec874aa6113"", ""sequence"": 1}
+"
+1790446826619,"END RequestId: d9811645-6aa2-4000-9354-eec874aa6113
+"
+1790446826619,"REPORT RequestId: d9811645-6aa2-4000-9354-eec874aa6113	Duration: 24.97 ms	Billed Duration: 25 ms	Memory Size: 128 MB	Max Memory Used: 88 MB	
+"
+1790446829593,"START RequestId: ab17730c-4f69-4dac-a059-ed5a05c60f07 Version: $LATEST
+"
+1790446829596,"{""event"": {""device_id"": ""psi5120-final-matheus-cavini-lamp01"", ""distance_cm"": 192.4401398, ""escuro"": false, ""lamp_state"": ""off"", ""light_raw"": 2630, ""mode"": ""auto"", ""presence_proxima"": false, ""sequence"": 2, ""timestamp"": ""2026-09-26T18:20:29Z""}, ""phase"": ""iot_rule_received"", ""request_id"": ""ab17730c-4f69-4dac-a059-ed5a05c60f07""}
+"
+1790446829599,"{""device_id"": ""psi5120-final-matheus-cavini-lamp01"", ""phase"": ""dynamodb_put_ok"", ""request_id"": ""ab17730c-4f69-4dac-a059-ed5a05c60f07"", ""sequence"": 2}
+"
+1790446829618,"END RequestId: ab17730c-4f69-4dac-a059-ed5a05c60f07
+"
+1790446829618,"REPORT RequestId: ab17730c-4f69-4dac-a059-ed5a05c60f07	Duration: 23.92 ms	Billed Duration: 24 ms	Memory Size: 128 MB	Max Memory Used: 88 MB	
+"
+1790446832596,"START RequestId: ad4c1fe9-c8a7-44e9-bf83-e0a2ab5eb635 Version: $LATEST
+"
+1790446832597,"{""event"": {""device_id"": ""psi5120-final-matheus-cavini-lamp01"", ""distance_cm"": 192.9203491, ""escuro"": false, ""lamp_state"": ""off"", ""light_raw"": 2629, ""mode"": ""auto"", ""presence_proxima"": false, ""sequence"": 3, ""timestamp"": ""2026-09-26T18:20:32Z""}, ""phase"": ""iot_rule_received"", ""request_id"": ""ad4c1fe9-c8a7-44e9-bf83-e0a2ab5eb635""}
+"
+1790446832621,"{""device_id"": ""psi5120-final-matheus-cavini-lamp01"", ""phase"": ""dynamodb_put_ok"", ""request_id"": ""ad4c1fe9-c8a7-44e9-bf83-e0a2ab5eb635"", ""sequence"": 3}
+"
+1790446832643,"END RequestId: ad4c1fe9-c8a7-44e9-bf83-e0a2ab5eb635
+"
+1790446832643,"REPORT RequestId: ad4c1fe9-c8a7-44e9-bf83-e0a2ab5eb635	Duration: 45.38 ms	Billed Duration: 46 ms	Memory Size: 128 MB	Max Memory Used: 88 MB	
+"
+1790446835606,"START RequestId: dcf9887d-85f2-4325-b929-b1c68e50ba8e Version: $LATEST
+"
+1790446835609,"{""event"": {""device_id"": ""psi5120-final-matheus-cavini-lamp01"", ""distance_cm"": 192.543045, ""escuro"": false, ""lamp_state"": ""off"", ""light_raw"": 2629, ""mode"": ""auto"", ""presence_proxima"": false, ""sequence"": 4, ""timestamp"": ""2026-09-26T18:20:35Z""}, ""phase"": ""iot_rule_received"", ""request_id"": ""dcf9887d-85f2-4325-b929-b1c68e50ba8e""}
+"
+1790446835617,"{""device_id"": ""psi5120-final-matheus-cavini-lamp01"", ""phase"": ""dynamodb_put_ok"", ""request_id"": ""dcf9887d-85f2-4325-b929-b1c68e50ba8e"", ""sequence"": 4}
+"
+1790446835638,"END RequestId: dcf9887d-85f2-4325-b929-b1c68e50ba8e
+"
+1790446835638,"REPORT RequestId: dcf9887d-85f2-4325-b929-b1c68e50ba8e	Duration: 30.77 ms	Billed Duration: 31 ms	Memory Size: 128 MB	Max Memory Used: 88 MB	
+"
+1790446838660,"START RequestId: b057b729-a867-485d-bf1d-84a132ab5e40 Version: $LATEST
+"
+1790446838663,"{""event"": {""device_id"": ""psi5120-final-matheus-cavini-lamp01"", ""distance_cm"": 5.11070013, ""escuro"": false, ""lamp_state"": ""on"", ""light_raw"": 2802, ""mode"": ""auto"", ""presence_proxima"": true, ""sequence"": 5, ""timestamp"": ""2026-09-26T18:20:38Z""}, ""phase"": ""iot_rule_received"", ""request_id"": ""b057b729-a867-485d-bf1d-84a132ab5e40""}
+"
+1790446838678,"{""device_id"": ""psi5120-final-matheus-cavini-lamp01"", ""phase"": ""dynamodb_put_ok"", ""request_id"": ""b057b729-a867-485d-bf1d-84a132ab5e40"", ""sequence"": 5}
+"
+1790446838698,"END RequestId: b057b729-a867-485d-bf1d-84a132ab5e40
+"
+1790446838698,"REPORT RequestId: b057b729-a867-485d-bf1d-84a132ab5e40	Duration: 37.94 ms	Billed Duration: 38 ms	Memory Size: 128 MB	Max Memory Used: 88 MB	
+"
+1790446841667,"START RequestId: c76856a5-aa40-4ec9-a1a0-8ede4746e89a Version: $LATEST
+"
+1790446841668,"{""event"": {""device_id"": ""psi5120-final-matheus-cavini-lamp01"", ""distance_cm"": 3.635799885, ""escuro"": false, ""lamp_state"": ""on"", ""light_raw"": 2534, ""mode"": ""auto"", ""presence_proxima"": true, ""sequence"": 6, ""timestamp"": ""2026-09-26T18:20:41Z""}, ""phase"": ""iot_rule_received"", ""request_id"": ""c76856a5-aa40-4ec9-a1a0-8ede4746e89a""}
+"
+1790446841697,"{""device_id"": ""psi5120-final-matheus-cavini-lamp01"", ""phase"": ""dynamodb_put_ok"", ""request_id"": ""c76856a5-aa40-4ec9-a1a0-8ede4746e89a"", ""sequence"": 6}
+"
+1790446841699,"END RequestId: c76856a5-aa40-4ec9-a1a0-8ede4746e89a
+"
+1790446841699,"REPORT RequestId: c76856a5-aa40-4ec9-a1a0-8ede4746e89a	Duration: 31.46 ms	Billed Duration: 32 ms	Memory Size: 128 MB	Max Memory Used: 88 MB	
+"
+1790446844596,"START RequestId: de6a51e3-fb42-487b-9d0e-1133b8c4085d Version: $LATEST
+"
+1790446844598,"{""event"": {""device_id"": ""psi5120-final-matheus-cavini-lamp01"", ""distance_cm"": 194.7210999, ""escuro"": false, ""lamp_state"": ""off"", ""light_raw"": 2608, ""mode"": ""auto"", ""presence_proxima"": false, ""sequence"": 7, ""timestamp"": ""2026-09-26T18:20:44Z""}, ""phase"": ""iot_rule_received"", ""request_id"": ""de6a51e3-fb42-487b-9d0e-1133b8c4085d""}
+"
+1790446844617,"{""device_id"": ""psi5120-final-matheus-cavini-lamp01"", ""phase"": ""dynamodb_put_ok"", ""request_id"": ""de6a51e3-fb42-487b-9d0e-1133b8c4085d"", ""sequence"": 7}
+"
+1790446844638,"END RequestId: de6a51e3-fb42-487b-9d0e-1133b8c4085d
+"
+1790446844638,"REPORT RequestId: de6a51e3-fb42-487b-9d0e-1133b8c4085d	Duration: 41.11 ms	Billed Duration: 42 ms	Memory Size: 128 MB	Max Memory Used: 88 MB	
+"
+1790446847703,"START RequestId: 87a8082f-8031-4e59-b810-6f0d1efdc178 Version: $LATEST
+"
+1790446847704,"{""event"": {""device_id"": ""psi5120-final-matheus-cavini-lamp01"", ""distance_cm"": 192.302948, ""escuro"": false, ""lamp_state"": ""off"", ""light_raw"": 2603, ""mode"": ""auto"", ""presence_proxima"": false, ""sequence"": 8, ""timestamp"": ""2026-09-26T18:20:47Z""}, ""phase"": ""iot_rule_received"", ""request_id"": ""87a8082f-8031-4e59-b810-6f0d1efdc178""}
+"
+1790446847719,"{""device_id"": ""psi5120-final-matheus-cavini-lamp01"", ""phase"": ""dynamodb_put_ok"", ""request_id"": ""87a8082f-8031-4e59-b810-6f0d1efdc178"", ""sequence"": 8}
+"
+1790446847738,"END RequestId: 87a8082f-8031-4e59-b810-6f0d1efdc178
+"
+1790446847738,"REPORT RequestId: 87a8082f-8031-4e59-b810-6f0d1efdc178	Duration: 33.91 ms	Billed Duration: 34 ms	Memory Size: 128 MB	Max Memory Used: 88 MB	
+"
+1790446850622,"START RequestId: 94c4caed-d7e8-4c48-809f-447e0416215e Version: $LATEST
+"
+1790446850623,"{""event"": {""device_id"": ""psi5120-final-matheus-cavini-lamp01"", ""distance_cm"": 192.6287994, ""escuro"": false, ""lamp_state"": ""off"", ""light_raw"": 2603, ""mode"": ""auto"", ""presence_proxima"": false, ""sequence"": 9, ""timestamp"": ""2026-09-26T18:20:50Z""}, ""phase"": ""iot_rule_received"", ""request_id"": ""94c4caed-d7e8-4c48-809f-447e0416215e""}
+"
+1790446850640,"{""device_id"": ""psi5120-final-matheus-cavini-lamp01"", ""phase"": ""dynamodb_put_ok"", ""request_id"": ""94c4caed-d7e8-4c48-809f-447e0416215e"", ""sequence"": 9}
+"
+1790446850658,"END RequestId: 94c4caed-d7e8-4c48-809f-447e0416215e
+"
+1790446850658,"REPORT RequestId: 94c4caed-d7e8-4c48-809f-447e0416215e	Duration: 35.78 ms	Billed Duration: 36 ms	Memory Size: 128 MB	Max Memory Used: 88 MB	
+"
+1790446853730,"START RequestId: d3d86a64-e5cb-43af-bb88-583a5f096b91 Version: $LATEST
+"
+1790446853730,"{""event"": {""device_id"": ""psi5120-final-matheus-cavini-lamp01"", ""distance_cm"": 192.5258942, ""escuro"": true, ""lamp_state"": ""on"", ""light_raw"": 1073, ""mode"": ""auto"", ""presence_proxima"": false, ""sequence"": 10, ""timestamp"": ""2026-09-26T18:20:53Z""}, ""phase"": ""iot_rule_received"", ""request_id"": ""d3d86a64-e5cb-43af-bb88-583a5f096b91""}
+"
+1790446853737,"{""device_id"": ""psi5120-final-matheus-cavini-lamp01"", ""phase"": ""dynamodb_put_ok"", ""request_id"": ""d3d86a64-e5cb-43af-bb88-583a5f096b91"", ""sequence"": 10}
+"
+1790446853758,"END RequestId: d3d86a64-e5cb-43af-bb88-583a5f096b91
+"
+1790446853758,"REPORT RequestId: d3d86a64-e5cb-43af-bb88-583a5f096b91	Duration: 27.57 ms	Billed Duration: 28 ms	Memory Size: 128 MB	Max Memory Used: 88 MB	
+"
+1790446856617,"START RequestId: 72bb3d36-0596-46c2-b4c4-a445b0a4c6c8 Version: $LATEST
+"
+1790446856618,"{""event"": {""device_id"": ""psi5120-final-matheus-cavini-lamp01"", ""distance_cm"": 192.543045, ""escuro"": true, ""lamp_state"": ""on"", ""light_raw"": 1002, ""mode"": ""auto"", ""presence_proxima"": false, ""sequence"": 11, ""timestamp"": ""2026-09-26T18:20:56Z""}, ""phase"": ""iot_rule_received"", ""request_id"": ""72bb3d36-0596-46c2-b4c4-a445b0a4c6c8""}
+"
+1790446856637,"{""device_id"": ""psi5120-final-matheus-cavini-lamp01"", ""phase"": ""dynamodb_put_ok"", ""request_id"": ""72bb3d36-0596-46c2-b4c4-a445b0a4c6c8"", ""sequence"": 11}
+"
+1790446856658,"END RequestId: 72bb3d36-0596-46c2-b4c4-a445b0a4c6c8
+"
+1790446856658,"REPORT RequestId: 72bb3d36-0596-46c2-b4c4-a445b0a4c6c8	Duration: 40.00 ms	Billed Duration: 40 ms	Memory Size: 128 MB	Max Memory Used: 88 MB	
+"
+1790446859619,"START RequestId: a42921d3-15ea-497b-bc75-c344352cb7dc Version: $LATEST
+"
+1790446859620,"{""event"": {""device_id"": ""psi5120-final-matheus-cavini-lamp01"", ""distance_cm"": 192.1485901, ""escuro"": false, ""lamp_state"": ""off"", ""light_raw"": 2559, ""mode"": ""auto"", ""presence_proxima"": false, ""sequence"": 12, ""timestamp"": ""2026-09-26T18:20:59Z""}, ""phase"": ""iot_rule_received"", ""request_id"": ""a42921d3-15ea-497b-bc75-c344352cb7dc""}
+"
+1790446859638,"{""device_id"": ""psi5120-final-matheus-cavini-lamp01"", ""phase"": ""dynamodb_put_ok"", ""request_id"": ""a42921d3-15ea-497b-bc75-c344352cb7dc"", ""sequence"": 12}
+"
+1790446859658,"END RequestId: a42921d3-15ea-497b-bc75-c344352cb7dc
+"
+1790446859658,"REPORT RequestId: a42921d3-15ea-497b-bc75-c344352cb7dc	Duration: 37.72 ms	Billed Duration: 38 ms	Memory Size: 128 MB	Max Memory Used: 88 MB	
+"
+1790446862645,"START RequestId: ea57a811-1859-4cda-b8bf-2c6d214d0294 Version: $LATEST
+"
+1790446862645,"{""event"": {""device_id"": ""psi5120-final-matheus-cavini-lamp01"", ""distance_cm"": 192.1828918, ""escuro"": false, ""lamp_state"": ""off"", ""light_raw"": 2582, ""mode"": ""auto"", ""presence_proxima"": false, ""sequence"": 13, ""timestamp"": ""2026-09-26T18:21:02Z""}, ""phase"": ""iot_rule_received"", ""request_id"": ""ea57a811-1859-4cda-b8bf-2c6d214d0294""}
+"
+1790446862657,"{""device_id"": ""psi5120-final-matheus-cavini-lamp01"", ""phase"": ""dynamodb_put_ok"", ""request_id"": ""ea57a811-1859-4cda-b8bf-2c6d214d0294"", ""sequence"": 13}
+"
+1790446862678,"END RequestId: ea57a811-1859-4cda-b8bf-2c6d214d0294
+"
+1790446862678,"REPORT RequestId: ea57a811-1859-4cda-b8bf-2c6d214d0294	Duration: 32.83 ms	Billed Duration: 33 ms	Memory Size: 128 MB	Max Memory Used: 88 MB	
+"
+1790446865647,"START RequestId: b80bcb65-0e81-4ba4-8c15-ba74a22b1265 Version: $LATEST
+"
+1790446865648,"{""event"": {""device_id"": ""psi5120-final-matheus-cavini-lamp01"", ""distance_cm"": 192.2686462, ""escuro"": false, ""lamp_state"": ""off"", ""light_raw"": 2559, ""mode"": ""auto"", ""presence_proxima"": false, ""sequence"": 14, ""timestamp"": ""2026-09-26T18:21:05Z""}, ""phase"": ""iot_rule_received"", ""request_id"": ""b80bcb65-0e81-4ba4-8c15-ba74a22b1265""}
+"
+1790446865657,"{""device_id"": ""psi5120-final-matheus-cavini-lamp01"", ""phase"": ""dynamodb_put_ok"", ""request_id"": ""b80bcb65-0e81-4ba4-8c15-ba74a22b1265"", ""sequence"": 14}
+"
+1790446865678,"END RequestId: b80bcb65-0e81-4ba4-8c15-ba74a22b1265
+"
+1790446865678,"REPORT RequestId: b80bcb65-0e81-4ba4-8c15-ba74a22b1265	Duration: 30.03 ms	Billed Duration: 31 ms	Memory Size: 128 MB	Max Memory Used: 88 MB	
+"
+1790446868669,"START RequestId: 13788a68-020a-4ccd-8195-a8173a0a0f5e Version: $LATEST
+"
+1790446868669,"{""event"": {""device_id"": ""psi5120-final-matheus-cavini-lamp01"", ""distance_cm"": 192.1828918, ""escuro"": false, ""lamp_state"": ""off"", ""light_raw"": 2559, ""mode"": ""auto"", ""presence_proxima"": false, ""sequence"": 15, ""timestamp"": ""2026-09-26T18:21:08Z""}, ""phase"": ""iot_rule_received"", ""request_id"": ""13788a68-020a-4ccd-8195-a8173a0a0f5e""}
+"
+1790446868677,"{""device_id"": ""psi5120-final-matheus-cavini-lamp01"", ""phase"": ""dynamodb_put_ok"", ""request_id"": ""13788a68-020a-4ccd-8195-a8173a0a0f5e"", ""sequence"": 15}
+"
+1790446868698,"END RequestId: 13788a68-020a-4ccd-8195-a8173a0a0f5e
+"
+1790446868698,"REPORT RequestId: 13788a68-020a-4ccd-8195-a8173a0a0f5e	Duration: 28.89 ms	Billed Duration: 29 ms	Memory Size: 128 MB	Max Memory Used: 88 MB	
+"
+1790446871636,"START RequestId: 6f64f9e9-ec66-444c-b0c0-d8b0da745657 Version: $LATEST
+"
+1790446871637,"{""event"": {""device_id"": ""psi5120-final-matheus-cavini-lamp01"", ""distance_cm"": 192.0971527, ""escuro"": false, ""lamp_state"": ""off"", ""light_raw"": 2581, ""mode"": ""auto"", ""presence_proxima"": false, ""sequence"": 16, ""timestamp"": ""2026-09-26T18:21:11Z""}, ""phase"": ""iot_rule_received"", ""request_id"": ""6f64f9e9-ec66-444c-b0c0-d8b0da745657""}
+"
+1790446871657,"{""device_id"": ""psi5120-final-matheus-cavini-lamp01"", ""phase"": ""dynamodb_put_ok"", ""request_id"": ""6f64f9e9-ec66-444c-b0c0-d8b0da745657"", ""sequence"": 16}
+"
+1790446871678,"END RequestId: 6f64f9e9-ec66-444c-b0c0-d8b0da745657
+"
+1790446871678,"REPORT RequestId: 6f64f9e9-ec66-444c-b0c0-d8b0da745657	Duration: 41.23 ms	Billed Duration: 42 ms	Memory Size: 128 MB	Max Memory Used: 88 MB	
+"
+1790446874642,"START RequestId: 262ac649-34d6-4407-b925-21d9cba4b162 Version: $LATEST
+"
+1790446874643,"{""event"": {""device_id"": ""psi5120-final-matheus-cavini-lamp01"", ""distance_cm"": 192.0800018, ""escuro"": false, ""lamp_state"": ""off"", ""light_raw"": 2559, ""mode"": ""auto"", ""presence_proxima"": false, ""sequence"": 17, ""timestamp"": ""2026-09-26T18:21:14Z""}, ""phase"": ""iot_rule_received"", ""request_id"": ""262ac649-34d6-4407-b925-21d9cba4b162""}
+"
+1790446874676,"{""device_id"": ""psi5120-final-matheus-cavini-lamp01"", ""phase"": ""dynamodb_put_ok"", ""request_id"": ""262ac649-34d6-4407-b925-21d9cba4b162"", ""sequence"": 17}
+"
+1790446874678,"END RequestId: 262ac649-34d6-4407-b925-21d9cba4b162
+"
+1790446874678,"REPORT RequestId: 262ac649-34d6-4407-b925-21d9cba4b162	Duration: 35.55 ms	Billed Duration: 36 ms	Memory Size: 128 MB	Max Memory Used: 88 MB	
+"
+1790446877658,"START RequestId: 2df6b6d0-7cc4-4ec1-bbf3-64ecd5118fae Version: $LATEST
+"
+1790446877661,"{""event"": {""device_id"": ""psi5120-final-matheus-cavini-lamp01"", ""distance_cm"": 192.4572906, ""escuro"": false, ""lamp_state"": ""off"", ""light_raw"": 2559, ""mode"": ""auto"", ""presence_proxima"": false, ""sequence"": 18, ""timestamp"": ""2026-09-26T18:21:17Z""}, ""phase"": ""iot_rule_received"", ""request_id"": ""2df6b6d0-7cc4-4ec1-bbf3-64ecd5118fae""}
+"
+1790446877697,"{""device_id"": ""psi5120-final-matheus-cavini-lamp01"", ""phase"": ""dynamodb_put_ok"", ""request_id"": ""2df6b6d0-7cc4-4ec1-bbf3-64ecd5118fae"", ""sequence"": 18}
+"
+1790446877699,"END RequestId: 2df6b6d0-7cc4-4ec1-bbf3-64ecd5118fae
+"
+1790446877699,"REPORT RequestId: 2df6b6d0-7cc4-4ec1-bbf3-64ecd5118fae	Duration: 40.02 ms	Billed Duration: 41 ms	Memory Size: 128 MB	Max Memory Used: 88 MB	
+"
+1790446880665,"START RequestId: 428bf85f-c6bc-40f6-89cd-2dc5b236007a Version: $LATEST
+"
+1790446880667,"{""event"": {""device_id"": ""psi5120-final-matheus-cavini-lamp01"", ""distance_cm"": 192.4744415, ""escuro"": false, ""lamp_state"": ""off"", ""light_raw"": 2535, ""mode"": ""auto"", ""presence_proxima"": false, ""sequence"": 19, ""timestamp"": ""2026-09-26T18:21:20Z""}, ""phase"": ""iot_rule_received"", ""request_id"": ""428bf85f-c6bc-40f6-89cd-2dc5b236007a""}
+"
+1790446880678,"{""device_id"": ""psi5120-final-matheus-cavini-lamp01"", ""phase"": ""dynamodb_put_ok"", ""request_id"": ""428bf85f-c6bc-40f6-89cd-2dc5b236007a"", ""sequence"": 19}
+"
+1790446880699,"END RequestId: 428bf85f-c6bc-40f6-89cd-2dc5b236007a
+"
+1790446880699,"REPORT RequestId: 428bf85f-c6bc-40f6-89cd-2dc5b236007a	Duration: 32.65 ms	Billed Duration: 33 ms	Memory Size: 128 MB	Max Memory Used: 88 MB	
+"
+1790446883645,"START RequestId: 6c73418a-4c92-4cc9-927a-0e23702e1b74 Version: $LATEST
+"
+1790446883648,"{""event"": {""device_id"": ""psi5120-final-matheus-cavini-lamp01"", ""distance_cm"": 192.543045, ""escuro"": false, ""lamp_state"": ""off"", ""light_raw"": 2534, ""mode"": ""auto"", ""presence_proxima"": false, ""sequence"": 20, ""timestamp"": ""2026-09-26T18:21:23Z""}, ""phase"": ""iot_rule_received"", ""request_id"": ""6c73418a-4c92-4cc9-927a-0e23702e1b74""}
+"
+1790446883657,"{""device_id"": ""psi5120-final-matheus-cavini-lamp01"", ""phase"": ""dynamodb_put_ok"", ""request_id"": ""6c73418a-4c92-4cc9-927a-0e23702e1b74"", ""sequence"": 20}
+"
+1790446883679,"END RequestId: 6c73418a-4c92-4cc9-927a-0e23702e1b74
+"
+1790446883679,"REPORT RequestId: 6c73418a-4c92-4cc9-927a-0e23702e1b74	Duration: 32.72 ms	Billed Duration: 33 ms	Memory Size: 128 MB	Max Memory Used: 88 MB	
+"
+1790446886628,"START RequestId: c603bc4a-afaf-448b-8f01-b75838ec84cd Version: $LATEST
+"
+1790446886636,"{""event"": {""device_id"": ""psi5120-final-matheus-cavini-lamp01"", ""distance_cm"": 192.4572906, ""escuro"": false, ""lamp_state"": ""off"", ""light_raw"": 2535, ""mode"": ""auto"", ""presence_proxima"": false, ""sequence"": 21, ""timestamp"": ""2026-09-26T18:21:26Z""}, ""phase"": ""iot_rule_received"", ""request_id"": ""c603bc4a-afaf-448b-8f01-b75838ec84cd""}
+"
+1790446886698,"{""device_id"": ""psi5120-final-matheus-cavini-lamp01"", ""phase"": ""dynamodb_put_ok"", ""request_id"": ""c603bc4a-afaf-448b-8f01-b75838ec84cd"", ""sequence"": 21}
+"
+1790446886718,"END RequestId: c603bc4a-afaf-448b-8f01-b75838ec84cd
+"
+1790446886718,"REPORT RequestId: c603bc4a-afaf-448b-8f01-b75838ec84cd	Duration: 88.90 ms	Billed Duration: 89 ms	Memory Size: 128 MB	Max Memory Used: 88 MB	
+"
+1790446889659,"START RequestId: ae6d5fd0-e986-4c81-8c77-e5e96879599f Version: $LATEST
+"
+1790446889660,"{""event"": {""device_id"": ""psi5120-final-matheus-cavini-lamp01"", ""distance_cm"": 192.0285492, ""escuro"": false, ""lamp_state"": ""off"", ""light_raw"": 2540, ""mode"": ""auto"", ""presence_proxima"": false, ""sequence"": 22, ""timestamp"": ""2026-09-26T18:21:29Z""}, ""phase"": ""iot_rule_received"", ""request_id"": ""ae6d5fd0-e986-4c81-8c77-e5e96879599f""}
+"
+1790446889677,"{""device_id"": ""psi5120-final-matheus-cavini-lamp01"", ""phase"": ""dynamodb_put_ok"", ""request_id"": ""ae6d5fd0-e986-4c81-8c77-e5e96879599f"", ""sequence"": 22}
+"
+1790446889699,"END RequestId: ae6d5fd0-e986-4c81-8c77-e5e96879599f
+"
+1790446889699,"REPORT RequestId: ae6d5fd0-e986-4c81-8c77-e5e96879599f	Duration: 38.14 ms	Billed Duration: 39 ms	Memory Size: 128 MB	Max Memory Used: 88 MB	
+"
+1790446892644,"START RequestId: bbef189c-a440-42e1-a44d-072365352a05 Version: $LATEST
+"
+1790446892644,"{""event"": {""device_id"": ""psi5120-final-matheus-cavini-lamp01"", ""distance_cm"": 192.4915924, ""escuro"": false, ""lamp_state"": ""off"", ""light_raw"": 2541, ""mode"": ""auto"", ""presence_proxima"": false, ""sequence"": 23, ""timestamp"": ""2026-09-26T18:21:32Z""}, ""phase"": ""iot_rule_received"", ""request_id"": ""bbef189c-a440-42e1-a44d-072365352a05""}
+"
+1790446892657,"{""device_id"": ""psi5120-final-matheus-cavini-lamp01"", ""phase"": ""dynamodb_put_ok"", ""request_id"": ""bbef189c-a440-42e1-a44d-072365352a05"", ""sequence"": 23}
+"
+1790446892678,"END RequestId: bbef189c-a440-42e1-a44d-072365352a05
+"
+1790446892678,"REPORT RequestId: bbef189c-a440-42e1-a44d-072365352a05	Duration: 34.01 ms	Billed Duration: 35 ms	Memory Size: 128 MB	Max Memory Used: 88 MB	
+"
+1790446895655,"START RequestId: 0412a3fa-26c9-486c-bb9c-0578c52046df Version: $LATEST
+"
+1790446895655,"{""event"": {""device_id"": ""psi5120-final-matheus-cavini-lamp01"", ""distance_cm"": 191.9770966, ""escuro"": false, ""lamp_state"": ""off"", ""light_raw"": 2523, ""mode"": ""auto"", ""presence_proxima"": false, ""sequence"": 24, ""timestamp"": ""2026-09-26T18:21:35Z""}, ""phase"": ""iot_rule_received"", ""request_id"": ""0412a3fa-26c9-486c-bb9c-0578c52046df""}
+"
+1790446895677,"{""device_id"": ""psi5120-final-matheus-cavini-lamp01"", ""phase"": ""dynamodb_put_ok"", ""request_id"": ""0412a3fa-26c9-486c-bb9c-0578c52046df"", ""sequence"": 24}
+"
+1790446895679,"END RequestId: 0412a3fa-26c9-486c-bb9c-0578c52046df
+"
+1790446895679,"REPORT RequestId: 0412a3fa-26c9-486c-bb9c-0578c52046df	Duration: 23.92 ms	Billed Duration: 24 ms	Memory Size: 128 MB	Max Memory Used: 88 MB	
+"
+1790446898686,"START RequestId: 248a4e50-223b-44b5-869b-7021d9218518 Version: $LATEST
+"
+1790446898687,"{""event"": {""device_id"": ""psi5120-final-matheus-cavini-lamp01"", ""distance_cm"": 192.3715515, ""escuro"": false, ""lamp_state"": ""on"", ""light_raw"": 2621, ""mode"": ""manual"", ""presence_proxima"": false, ""sequence"": 25, ""timestamp"": ""2026-09-26T18:21:38Z""}, ""phase"": ""iot_rule_received"", ""request_id"": ""248a4e50-223b-44b5-869b-7021d9218518""}
+"
+1790446898697,"{""device_id"": ""psi5120-final-matheus-cavini-lamp01"", ""phase"": ""dynamodb_put_ok"", ""request_id"": ""248a4e50-223b-44b5-869b-7021d9218518"", ""sequence"": 25}
+"
+1790446898718,"END RequestId: 248a4e50-223b-44b5-869b-7021d9218518
+"
+1790446898718,"REPORT RequestId: 248a4e50-223b-44b5-869b-7021d9218518	Duration: 31.67 ms	Billed Duration: 32 ms	Memory Size: 128 MB	Max Memory Used: 88 MB	
+"
+1790446901698,"START RequestId: 47796590-3d64-4ee2-865a-aa32ceaf4883 Version: $LATEST
+"
+1790446901698,"{""event"": {""device_id"": ""psi5120-final-matheus-cavini-lamp01"", ""distance_cm"": 3.327100039, ""escuro"": false, ""lamp_state"": ""on"", ""light_raw"": 2621, ""mode"": ""manual"", ""presence_proxima"": true, ""sequence"": 26, ""timestamp"": ""2026-09-26T18:21:41Z""}, ""phase"": ""iot_rule_received"", ""request_id"": ""47796590-3d64-4ee2-865a-aa32ceaf4883""}
+"
+1790446901717,"{""device_id"": ""psi5120-final-matheus-cavini-lamp01"", ""phase"": ""dynamodb_put_ok"", ""request_id"": ""47796590-3d64-4ee2-865a-aa32ceaf4883"", ""sequence"": 26}
+"
+1790446901738,"END RequestId: 47796590-3d64-4ee2-865a-aa32ceaf4883
+"
+1790446901738,"REPORT RequestId: 47796590-3d64-4ee2-865a-aa32ceaf4883	Duration: 39.38 ms	Billed Duration: 40 ms	Memory Size: 128 MB	Max Memory Used: 88 MB	
+"
+1790446904688,"START RequestId: 673d58ff-ddc5-4cee-b1bc-6f2e1cd7005c Version: $LATEST
+"
+1790446904689,"{""event"": {""device_id"": ""psi5120-final-matheus-cavini-lamp01"", ""distance_cm"": 192.4572906, ""escuro"": false, ""lamp_state"": ""on"", ""light_raw"": 2703, ""mode"": ""manual"", ""presence_proxima"": false, ""sequence"": 27, ""timestamp"": ""2026-09-26T18:21:44Z""}, ""phase"": ""iot_rule_received"", ""request_id"": ""673d58ff-ddc5-4cee-b1bc-6f2e1cd7005c""}
+"
+1790446904697,"{""device_id"": ""psi5120-final-matheus-cavini-lamp01"", ""phase"": ""dynamodb_put_ok"", ""request_id"": ""673d58ff-ddc5-4cee-b1bc-6f2e1cd7005c"", ""sequence"": 27}
+"
+1790446904718,"END RequestId: 673d58ff-ddc5-4cee-b1bc-6f2e1cd7005c
+"
+1790446904718,"REPORT RequestId: 673d58ff-ddc5-4cee-b1bc-6f2e1cd7005c	Duration: 28.90 ms	Billed Duration: 29 ms	Memory Size: 128 MB	Max Memory Used: 88 MB	
+"
+1790446907676,"START RequestId: 136d1350-a5af-46c2-a74c-1c2f5d25dca7 Version: $LATEST
+"
+1790446907677,"{""event"": {""device_id"": ""psi5120-final-matheus-cavini-lamp01"", ""distance_cm"": 192.1143036, ""escuro"": false, ""lamp_state"": ""on"", ""light_raw"": 2587, ""mode"": ""manual"", ""presence_proxima"": false, ""sequence"": 28, ""timestamp"": ""2026-09-26T18:21:47Z""}, ""phase"": ""iot_rule_received"", ""request_id"": ""136d1350-a5af-46c2-a74c-1c2f5d25dca7""}
+"
+1790446907697,"{""device_id"": ""psi5120-final-matheus-cavini-lamp01"", ""phase"": ""dynamodb_put_ok"", ""request_id"": ""136d1350-a5af-46c2-a74c-1c2f5d25dca7"", ""sequence"": 28}
+"
+1790446907718,"END RequestId: 136d1350-a5af-46c2-a74c-1c2f5d25dca7
+"
+1790446907718,"REPORT RequestId: 136d1350-a5af-46c2-a74c-1c2f5d25dca7	Duration: 41.03 ms	Billed Duration: 42 ms	Memory Size: 128 MB	Max Memory Used: 88 MB	
+"
+1790446910710,"START RequestId: d93aed05-d48a-4de5-9b67-910d6c9fc57e Version: $LATEST
+"
+1790446910712,"{""event"": {""device_id"": ""psi5120-final-matheus-cavini-lamp01"", ""distance_cm"": 192.1143036, ""escuro"": false, ""lamp_state"": ""on"", ""light_raw"": 2626, ""mode"": ""manual"", ""presence_proxima"": false, ""sequence"": 29, ""timestamp"": ""2026-09-26T18:21:50Z""}, ""phase"": ""iot_rule_received"", ""request_id"": ""d93aed05-d48a-4de5-9b67-910d6c9fc57e""}
+"
+1790446910717,"{""device_id"": ""psi5120-final-matheus-cavini-lamp01"", ""phase"": ""dynamodb_put_ok"", ""request_id"": ""d93aed05-d48a-4de5-9b67-910d6c9fc57e"", ""sequence"": 29}
+"
+1790446910738,"END RequestId: d93aed05-d48a-4de5-9b67-910d6c9fc57e
+"
+1790446910738,"REPORT RequestId: d93aed05-d48a-4de5-9b67-910d6c9fc57e	Duration: 28.00 ms	Billed Duration: 28 ms	Memory Size: 128 MB	Max Memory Used: 88 MB	
+"
+1790446913702,"START RequestId: d97a407c-3979-4bcc-9534-be16be607f1b Version: $LATEST
+"
+1790446913702,"{""event"": {""device_id"": ""psi5120-final-matheus-cavini-lamp01"", ""distance_cm"": 192.2171936, ""escuro"": false, ""lamp_state"": ""on"", ""light_raw"": 2659, ""mode"": ""manual"", ""presence_proxima"": false, ""sequence"": 30, ""timestamp"": ""2026-09-26T18:21:53Z""}, ""phase"": ""iot_rule_received"", ""request_id"": ""d97a407c-3979-4bcc-9534-be16be607f1b""}
+"
+1790446913717,"{""device_id"": ""psi5120-final-matheus-cavini-lamp01"", ""phase"": ""dynamodb_put_ok"", ""request_id"": ""d97a407c-3979-4bcc-9534-be16be607f1b"", ""sequence"": 30}
+"
+1790446913738,"END RequestId: d97a407c-3979-4bcc-9534-be16be607f1b
+"
+1790446913738,"REPORT RequestId: d97a407c-3979-4bcc-9534-be16be607f1b	Duration: 35.41 ms	Billed Duration: 36 ms	Memory Size: 128 MB	Max Memory Used: 88 MB	
+"
+1790446916830,"START RequestId: dce93ac6-8b22-459a-a733-94ab6a87dcdd Version: $LATEST
+"
+1790446916831,"{""event"": {""device_id"": ""psi5120-final-matheus-cavini-lamp01"", ""distance_cm"": 192.3715515, ""escuro"": false, ""lamp_state"": ""off"", ""light_raw"": 2547, ""mode"": ""manual"", ""presence_proxima"": false, ""sequence"": 31, ""timestamp"": ""2026-09-26T18:21:56Z""}, ""phase"": ""iot_rule_received"", ""request_id"": ""dce93ac6-8b22-459a-a733-94ab6a87dcdd""}
+"
+1790446916841,"{""device_id"": ""psi5120-final-matheus-cavini-lamp01"", ""phase"": ""dynamodb_put_ok"", ""request_id"": ""dce93ac6-8b22-459a-a733-94ab6a87dcdd"", ""sequence"": 31}
+"
+1790446916858,"END RequestId: dce93ac6-8b22-459a-a733-94ab6a87dcdd
+"
+1790446916858,"REPORT RequestId: dce93ac6-8b22-459a-a733-94ab6a87dcdd	Duration: 27.12 ms	Billed Duration: 28 ms	Memory Size: 128 MB	Max Memory Used: 88 MB	
+"
+1790446919715,"START RequestId: 82ebfa7b-bb9a-4e70-a551-d4d27abf4cac Version: $LATEST
+"
+1790446919716,"{""event"": {""device_id"": ""psi5120-final-matheus-cavini-lamp01"", ""distance_cm"": 192.4230042, ""escuro"": false, ""lamp_state"": ""off"", ""light_raw"": 2544, ""mode"": ""manual"", ""presence_proxima"": false, ""sequence"": 32, ""timestamp"": ""2026-09-26T18:21:59Z""}, ""phase"": ""iot_rule_received"", ""request_id"": ""82ebfa7b-bb9a-4e70-a551-d4d27abf4cac""}
+"
+1790446919737,"{""device_id"": ""psi5120-final-matheus-cavini-lamp01"", ""phase"": ""dynamodb_put_ok"", ""request_id"": ""82ebfa7b-bb9a-4e70-a551-d4d27abf4cac"", ""sequence"": 32}
+"
+1790446919758,"END RequestId: 82ebfa7b-bb9a-4e70-a551-d4d27abf4cac
+"
+1790446919758,"REPORT RequestId: 82ebfa7b-bb9a-4e70-a551-d4d27abf4cac	Duration: 42.00 ms	Billed Duration: 42 ms	Memory Size: 128 MB	Max Memory Used: 88 MB	
+"
