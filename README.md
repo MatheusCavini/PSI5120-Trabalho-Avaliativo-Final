@@ -25,17 +25,7 @@ The device communicates with AWS IoT Core over **MQTT/TLS with an X.509 client c
 
 ## System Architecture
 
-<!--
-TODO: Add the final architecture diagram here.
-Suggested path: docs/images/architecture.png
-The diagram should show:
-ESP32 -> AWS IoT Core (MQTT + Device Shadow) -> IoT Rule -> Lambda -> DynamoDB
-and the reverse/control path:
-Browser -> API Gateway -> Lambda -> AWS IoT Data Plane -> Device Shadow / MQTT command
--->
-
-> **Architecture diagram — planned figure**  
-> Add the final system architecture diagram here.
+![alt text](image-1.png)
 
 ### Main data flows
 
@@ -115,13 +105,8 @@ The prototype uses:
 | HC-SR04 ECHO | `18` |
 | Relay control | `26` |
 
-<!--
-TODO: Add a photo or wiring diagram of the physical prototype.
-Suggested path: docs/images/hardware.jpg
--->
+![alt text](image.png)
 
-> **Hardware photo / wiring diagram — planned figure**  
-> Add the physical prototype image here.
 
 ---
 
@@ -373,21 +358,6 @@ The main executed scenarios were:
 
 Evidence collected during testing is available under [`evidences/`](evidences/).
 
-<!--
-TODO: Add selected evidence screenshots here, for example:
-- AWS IoT Device Shadow
-- MQTT test client / topic traffic
-- Lambda CloudWatch logs
-- DynamoDB table items
-Suggested paths:
-  docs/images/shadow.png
-  docs/images/mqtt-console.png
-  docs/images/cloudwatch.png
-  docs/images/dynamodb.png
--->
-
-> **AWS / evidence screenshots — planned figures**  
-> Add the selected screenshots from the paper/evidence set here.
 
 ---
 
